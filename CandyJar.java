@@ -16,4 +16,8 @@ public class CandyJar {
     public void refill(int amt) {
         amount =+ amt;
     }
+
+    public void printState() {
+        System.out.println("Candy Amount: " + amount);
+    }
 }
